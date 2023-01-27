@@ -1,0 +1,12 @@
+let nomes = ["Alex", "Jason", "Freddy", "Michael"]
+
+let pessoaRemovida = nomes.pop()
+
+console.log(pessoaRemovida)
+console.log(nomes)
+
+nomes.push("Jeff")
+console.log(nomes)
+
+- push --> Insere
+-pop --> Remove elementos no fim

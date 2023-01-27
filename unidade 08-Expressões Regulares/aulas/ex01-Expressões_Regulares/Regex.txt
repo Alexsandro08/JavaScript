@@ -1,0 +1,17 @@
+-Depois da definição do padrão por meio da regex
+-Utilizamos o método test() para verificar se o padrão é retornado
+-Com isso vamos receber a resposta true or false
+
+
+
+const reg01 = /bola/
+let teste = 'Fui na feira e comprei uma bola'
+
+console.log(reg01.test('Tem bola?'))
+console.log(reg01.test('Não tem!'))
+console.log(reg01.test(teste))
+
+Resultado:
+true
+false
+true

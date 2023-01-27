@@ -1,0 +1,61 @@
+
+- push --> Insere elementos
+
+let nomes = ["Alex", "Jason", "Freddy"]
+
+nomes.push("Jeff")
+console.log(nomes)
+
+resultado: 
+["Alex", "Jason", "Freddy", "Jeff"]
+
+
+----------------------------------------------------
+
+- pop --> Remove elementos no fim
+
+let nomes = ["Alex", "Jason", "Freddy", "Michael"]
+
+let pessoaRemovida = nomes.pop()
+
+console.log(pessoaRemovida)
+console.log(nomes)
+
+resultado:
+
+"Michael"
+["Alex", "Jason", "Freddy"]
+
+--------------------------------------------------
+
+- shift --> Remove elementos no começo
+let nomes = ["Alex", "Jason", "Freddy", "Jeff"]
+
+nomes.shift()
+console.log(nomes)
+
+resultado: 
+['Jason', 'Freddy', 'Jeff']
+
+--------------------------------------------------
+
+-splace --> 
+
+let numeros = [1,2,4,6,7,8]
+
+numeros.splice(1,1) --> dois argumentos (qual remover e quantos remover)
+console.log(numeros)
+
+resultado:
+[1, 4, 6, 7, 8]
+
+- unshift --> insere varios elementos
+
+let frutas = ["uva", "maçã", "morango"]
+
+console.log(frutas);
+
+frutas.unshift("banana","pera");
+
+console.log(frutas);
+

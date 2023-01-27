@@ -1,0 +1,25 @@
+let verificarAno = /\d\d\d\d/
+
+console.log(verificarAno.test("2002"))
+console.log(verificarAno.test("teste"))
+console.log(verificarAno.test("aaaa"))
+
+
+
+resultado:
+true
+false
+false
+
+--------------------------------------
+let palavraTresLetra = /\w\w\w/
+
+console.log(palavraTresLetra.test('Tre'))
+console.log(palavraTresLetra.test('go'))
+console.log(palavraTresLetra.test('teste') && 'teste'.length == 3) // definí com length o tamanho exato, sem o length ficaria true pois já alcaçou as três letras
+
+
+resultado:
+true
+false 
+false

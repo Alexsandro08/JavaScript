@@ -1,0 +1,23 @@
+//Divide uma string por um separador, e retorna um array
+
+let frase = "O rato roeu a roupa do rei de Roma"
+
+
+
+console.log(frase.split(" "))
+
+resultado: ['O', 'rato', 'roeu', 'a', 'roupa', 'do', 'rei', 'de', 'Roma']
+
+-------------------------------------------------------------------------
+// Junta elementos em um array em uma frase, por meio de um separador;
+
+let frase = "Testando o split e o join"
+
+let palavra = frase.split(" ") 
+
+let novaFrase = palavra.join("-");
+
+console.log(novaFrase);
+
+resultado: Testando-o-split-e-o-join
+

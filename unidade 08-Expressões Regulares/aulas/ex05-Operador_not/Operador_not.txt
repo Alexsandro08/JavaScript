@@ -1,0 +1,18 @@
+const notAB = /[^AabB]/ //SÓ NEGA LETRAS ISOLADAS
+
+console.log(notAB.test('A'))
+console.log(notAB.test('B'))
+console.log(notAB.test('bola'))
+
+const notAZ = /[^a-z]/ // NEGA DE A-Z
+
+console.log(notAZ.test('aaassdd'))
+console.log(notAZ.test('alexsandro'))
+
+
+Resultado:
+false
+false
+true
+false
+false

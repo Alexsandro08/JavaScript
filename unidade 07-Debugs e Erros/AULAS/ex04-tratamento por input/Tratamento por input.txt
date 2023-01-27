@@ -1,0 +1,18 @@
+-Não podemos controlar o dados que o usuário envia, então para o funcionamento correto do software, devemos tratar eles
+-Exemplo de tratamento de Number
+
+
+
+
+function checharNumero(valor){
+    let resultado = Number(valor)
+    if(Number.isNaN(resultado)){
+  	return 'Digite um numero Porfavor!';
+
+    } else{
+        return resultado;
+    }
+}
+
+console.log(checharNumero(5))
+console.log(checharNumero('teste'))

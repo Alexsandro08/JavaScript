@@ -1,0 +1,13 @@
+function Textolimite(limite){
+    if(limite.length > 10){
+        console.log("Passou do limite") 
+    } else {
+        console.log("Dentro do limite") 
+    }
+   
+
+}
+
+Textolimite("Alexsandroo")
+Textolimite("teste")
+Textolimite("a")

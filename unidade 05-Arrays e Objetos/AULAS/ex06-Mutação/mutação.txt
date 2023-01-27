@@ -1,0 +1,14 @@
+let objetcA ={
+    ponto:10
+}
+
+objetcB = objetcA;
+
+let objetcC = {
+    ponto:10
+}
+
+console.log(objetcA == objetcB)
+console.log(objetcA == objetcC)
+
+-um objeto pode herdar todas as caracteristicas do outro

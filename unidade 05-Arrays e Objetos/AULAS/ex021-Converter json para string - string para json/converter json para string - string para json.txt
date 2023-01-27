@@ -1,0 +1,16 @@
+const car ={
+    "marca":"audi",
+    "portas": 4,
+    "cambio":"auto",
+    "motor":1.6,
+    "tipo":"sedan"
+
+}
+
+let jsonString = JSON.stringify(car) ----> json para string
+
+console.log(jsonString)
+
+let stringTojason = JSON.parse(jsonString) ----> string para json
+
+console.log(stringTojason)

@@ -1,0 +1,7 @@
+- remove tudo que é string
+
+const texto =   "           TESTE"
+
+console.log(texto.trim())
+
+

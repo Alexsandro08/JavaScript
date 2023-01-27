@@ -1,0 +1,8 @@
+const raiz = (x) => {
+    return x * 2;           // método um
+
+}
+const raiz2 = n => n * 2;  // método dois
+
+console.log(raiz(4));
+console.log(raiz(8));

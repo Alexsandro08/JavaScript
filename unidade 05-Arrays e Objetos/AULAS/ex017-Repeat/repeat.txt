@@ -1,0 +1,5 @@
+- Repete uma string de acordo com um parâmetro number
+
+let texto =  "teste "
+
+console.log(texto.repeat(6)) --> parâmetro 

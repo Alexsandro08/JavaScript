@@ -1,0 +1,20 @@
+-Finally é executada independente do resultadi do try/catch
+-Pode existir com try e catch ou apenas try
+
+
+
+try{
+  let a = 2 + b    
+} catch(Error){
+
+    console.log(Error)
+    
+} finally{
+  console.log('Executou')
+}
+
+
+RESULTADO:
+
+ReferenceError: b is not defined
+Executou

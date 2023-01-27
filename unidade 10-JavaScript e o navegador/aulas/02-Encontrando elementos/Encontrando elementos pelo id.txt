@@ -1,0 +1,5 @@
+console.log(document.getElementById('principal'));
+
+console.log(document.getElementById('semiprincipal'));
+
+console.log(document.getElementById('segundo'));

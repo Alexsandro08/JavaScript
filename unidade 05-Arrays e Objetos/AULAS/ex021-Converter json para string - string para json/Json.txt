@@ -1,0 +1,33 @@
+- json = javascript object notation
+-utilizado
+ para comunicação entre serviços, ex:back e <-> front
+-basicamente um tipo de dado padronizado, que lembra muito os objetos do javascript
+
+
+const pessoa = {
+    "nome":"Alex",
+    "idade":20,
+    "profissao":"programador"
+}
+
+console.log(pessoa.nome)
+console.log(pessoa.idade)
+console.log(pessoa.profissao)
+-----------------------------
+-Mais sobre json
+
+const pessoa = {
+    "nome":"Alex",
+    "idade":20,
+    "profissao":"programador",
+    "linguagens":["python","java","javascript"]
+}
+
+console.log(pessoa.nome)
+console.log(pessoa.idade)
+console.log(pessoa.profissao)
+console.log(pessoa.linguagens)
+
+// Rigoroso na estrutura, ou seja, deve seguir o padrão imposto
+//apenas aspas duplas
+// não aceita comentários

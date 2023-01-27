@@ -1,0 +1,13 @@
+-DEIXA O JAVASCRIPT  MAIS RIGOROSO
+-DEVE SER DECLARADO NO TOPO DE ARQUIVOS OU FUNÇÕES
+-COLOCAR STRICT AJUDA A CODIFICAR O CODIGO DE FORMA CORRETA 
+
+
+
+"use strict"
+
+uma = 2
+
+RESULTADO:
+  Uncaught ReferenceError: uma is not defined
+    at script.js:3:5

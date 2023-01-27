@@ -1,0 +1,5 @@
+console.log(document.getElementsByClassName('principal'))
+
+console.log(document.getElementsByClassName('semiprincipal'))
+
+console.log(document.getElementsByClassName('segundo'))

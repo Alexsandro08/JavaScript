@@ -1,0 +1,10 @@
+-verifica se o array tem um determinado elemento;
+
+const carro = ["Vw","fiat","audi","bmw"]
+
+console.log(carro.includes("fiat"))
+console.log(carro.includes("honda"))
+
+resultado: 
+	true
+	false

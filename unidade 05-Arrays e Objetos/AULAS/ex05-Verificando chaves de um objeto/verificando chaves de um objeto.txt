@@ -1,0 +1,10 @@
+let numeros ={
+    numero1: 1, // CHAVES
+    numero2: 2,
+    numero3: 3,
+}
+
+console.log(Object.keys(numeros))
+
+
+resultado: ['numero1', 'numero2', 'numero3']

@@ -1,0 +1,10 @@
+-O método exec nos retorna um objeto com algumas informações sobre regex
+-Se nada for encontrado, retorna null
+
+
+
+let teste = /\d+/.exec("Numero 100")
+
+console.log(teste)
+console.log(teste.index)
+

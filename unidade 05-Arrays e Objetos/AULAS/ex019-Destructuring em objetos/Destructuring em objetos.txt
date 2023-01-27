@@ -1,0 +1,27 @@
+-Pode definir variáveis com propriedades do objeto com uma 
+notação diferente, chamada destructuring
+
+const pessoa = {
+    nome:"Alex",
+    idade:20,
+    sexo:"Masculino"
+}
+
+const{nome:Mname,idade:years,sexo:sexy} = pessoa
+
+
+console.log(Mname)
+console.log(years)
+console.log(sexy)
+console.log("-------------------")
+console.log(pessoa)
+
+
+resultado:Alex
+20
+Masculino
+-------------------
+{nome: 'Alex', idade: 20, sexo: 'Masculino'}
+_______________________________________________
+
+//objetos usa {}

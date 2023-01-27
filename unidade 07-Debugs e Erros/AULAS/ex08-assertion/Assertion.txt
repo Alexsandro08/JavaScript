@@ -1,0 +1,39 @@
+-Verificações no programa, que são utilizadas para assegurar que tudo ocorra da forma correta
+
+
+
+
+
+
+
+
+
+
+
+let arr = [10,8,7,0,11]
+
+let arr2 = []
+
+function arra(arr){
+  if(arr.length == 0){
+    throw new Error('O Array precisa de elementos');
+  } else{
+    for(let i = 0; i < arr.length; i++){
+        console.log(i);
+
+    }
+  }
+}
+
+arra(arr)
+
+
+RESULTADO:
+
+0
+1
+2
+3
+
+Uncaught Error Error: O Array precisa de elementos
+4

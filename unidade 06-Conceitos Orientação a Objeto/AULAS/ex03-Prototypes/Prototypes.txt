@@ -1,0 +1,18 @@
+-Um objeto fallback de outro objeto
+-Quando um objeto recebe uma requisição de uma propriedade que
+não tem, ela é procura no prototype deste objeto
+-O prototype de um objeto criado do zero é o object, que tem
+os métodos nativos da linguagem
+
+
+
+const carro = {
+    portas: 4
+}
+
+console.log(Object.getPrototypeOf(carro))
+console.log(Object.getPrototypeOf(carro) === Object.prototype)
+
+resultado:
+{constructor: ƒ, __defineGetter__: ƒ, __defineSetter__: ƒ, hasOwnProperty: ƒ, __lookupGetter__: ƒ, …}
+true

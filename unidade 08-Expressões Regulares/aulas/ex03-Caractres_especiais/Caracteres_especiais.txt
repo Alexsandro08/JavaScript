@@ -1,0 +1,68 @@
+-(d) QUALQUER DÍGITO DE CARACTERE
+
+const dRegex = /\d/ // [0-9]
+
+
+console.log(dRegex.test('1234'))
+console.log(dRegex.test(" "))
+console.log(dRegex.test("aaasd"))
+console.log(dRegex.test("12234aasd"))
+---------------------------------------
+-(D) CARACTERES QUE NÃO SÃO DÍGITOS
+
+const dRegex2 = /\D/ //[^0-9] negativo [letras maisculas são o negativo]
+
+console.log(dRegex2.test('1234'))
+console.log(dRegex2.test(" "))
+console.log(dRegex2.test("aaasd"))
+console.log(dRegex2.test("12234aasd"))
+----------------------------------------------------
+-(.)QUALQUER CARACTERE, MENOS NOVA LINHA
+
+const pontoRegex = /./
+
+
+console.log(pontoRegex.test('1234'))
+console.log(pontoRegex.test(" "))
+console.log(pontoRegex.test("aaasd"))
+console.log(pontoRegex.test("12234aasd"))
+---------------------------------------------------
+-(s) QUALQUER CARACTERE DE ESPAÇO EM BRANCO
+
+const sRegex = /\s/
+
+
+console.log(sRegex.test('1234'))
+console.log(sRegex.test(" "))
+console.log(sRegex.test("aaasd"))
+console.log(sRegex.test("12234aasd"))
+--------------------------------------------------
+-(S)CARACTERE QUE NÃO SEJA ESPAÇO EM BRANCO
+
+const sRegex2 = /\S/
+
+console.log('S')
+console.log(sRegex2.test('1234'))
+console.log(sRegex2.test(" "))
+console.log(sRegex2.test("aaasd"))
+console.log(sRegex2.test("12234aasd"))
+---------------------------------------------------
+-(w) UM CARACTERE ALFANUMÉRICO
+
+const wRegex = /\w/
+
+console.log(wRegex.test('1234'))
+console.log(wRegex.test(" "))
+console.log(wRegex.test("aaasd"))
+console.log(wRegex.test("12234aasd"))
+----------------------------------------------------
+-(W) CARACTERE NÃO ALFANUMÉRICO
+const wRegex2 = /\W/
+
+console.log('w')
+console.log(wRegex2.test('1234'))
+console.log(wRegex2.test(" "))
+console.log(wRegex2.test("aaasd"))
+console.log(wRegex2.test("12234aasd")
+
+

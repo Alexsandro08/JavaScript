@@ -1,0 +1,19 @@
+let arr = [1,3,6,8,9]
+let nome = ["Alex", "JASON", "FREDDY", "MICHAEL"]
+let bool = [true, false, true]
+let misturado = ["alex", true, 21]
+
+console.log(arr)
+console.log(bool)
+console.log(nome)
+console.log(misturado)
+----------------------------------
+PODEMOS ACSSAR UM ARRAY PELO SEU ÍNDICE, POR EXEMPLO: arr[1];
+PRIMEIRO ÍNDICE SEMPRE COMEÇA COM "0"
+
+let nomes = ["Alex", "JASON", "FREDDY", "MICHAEL"]
+
+
+console.log(nomes[0])
+
+Resultado: "Alex"

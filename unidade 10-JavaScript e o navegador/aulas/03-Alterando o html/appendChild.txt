@@ -1,0 +1,13 @@
+-Adiciona um nó após todos os elemento pai especificado
+
+
+let novo_elemento = document.createElement("p");
+let texto = document.createTextNode("algum texto");
+
+
+novo_elemento.appendChild(texto)
+
+let p = document.querySelector("#paragra-prin");
+let pai = p.parentNode;
+
+pai.appendChild(novo_elemento)

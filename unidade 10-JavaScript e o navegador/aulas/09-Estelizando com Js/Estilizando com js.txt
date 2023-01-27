@@ -1,0 +1,16 @@
+-Podemos mudar as propriedades de estilo dos elementos do html com o js
+-Acessando a propriedade style podemos fazer as modificações 
+-O estilo é manipulado direto na tag, ou seja, substitui o do css(na maioria das vezes)
+
+
+let p = document.getElementById('paragrafo')
+
+console.log(p.style)
+
+
+setTimeout(function(){
+    p.style.color = 'red';
+}, 1000)
+
+
+p.style.width = '500px'

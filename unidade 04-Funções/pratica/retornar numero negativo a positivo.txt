@@ -1,0 +1,5 @@
+function numNega(num){
+   return Math.abs(num)
+
+}
+console.log(numNega(-1))

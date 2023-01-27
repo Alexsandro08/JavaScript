@@ -1,0 +1,6 @@
+const data = /[0-9]{2}[/][0-9]{2}[/][0-9]{4}/
+
+console.log(data.test("20/08/2002"))
+console.log(data.test("2/2/2022"))
+console.log(data.test("02/9/2002"))
+console.log(data.test("2/08/2002"))

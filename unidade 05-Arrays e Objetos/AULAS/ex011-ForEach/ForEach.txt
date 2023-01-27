@@ -1,0 +1,13 @@
+const nomes = ["Jason", "Freddy","Michael","Jeff"]
+
+nomes.forEach(nome =>{
+    console.log("O nome é " + nome)
+})
+
+resultado:
+O nome é Jason
+O nome é Freddy
+O nome é Michael
+O nome é Jeff
+
+//itera cada elemento do array

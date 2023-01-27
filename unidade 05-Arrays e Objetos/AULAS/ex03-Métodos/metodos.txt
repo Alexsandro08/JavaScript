@@ -1,0 +1,16 @@
+-métodos são propriedades que funcionam como função
+
+
+
+let marca = "nike"
+
+console.log(typeof marca.toUpperCase);
+console.log(marca.toUpperCase());
+
+let marca02 = marca.toUpperCase()
+console.log(marca02.toLowerCase())
+
+
+
+//string.propriedade
+//string.metodo()

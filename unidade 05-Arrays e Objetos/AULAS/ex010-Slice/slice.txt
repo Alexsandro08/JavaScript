@@ -1,0 +1,22 @@
+
+
+-retorna um array dentro de outro array; Exemplo
+
+let numeros = [5,3,4,2,5,6,2]
+
+console.log(numeros.slice(2,4))
+console.log(numeros.slice(0,2))
+console.log(numeros.slice(-2)) --> negativos pega de trás pra frente
+console.log(numeros.slice(0,-2)) --> remove os dois últimos numeros
+
+resultado: [4,2]
+	   [5,3]
+	   [2,6]
+	   [5, 3, 4, 2, 5]
+
+let frutas = ["uva","maçã","banana","pera"]
+
+console.log(frutas.slice(1,2))
+
+resultado: ['maçã']
+

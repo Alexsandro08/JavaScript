@@ -1,0 +1,44 @@
+let pessoa ={
+    nome:"Alex",
+    idade:20,
+    profissão:"Programador",
+    telefone:8888888888,
+    ola: function(){
+        return "Olá Mundo!"
+
+    }
+}
+
+console.log("Nome: " + pessoa.nome)
+console.log("Idade: " + pessoa.idade)
+console.log("Profissão: " + pessoa.profissão)
+console.log("Telefone: " + pessoa.telefone)
+console.log("------------------")
+console.log(pessoa.ola())
+
+
+
+// [] = array
+// {} = objetos
+
+
+----------------------------------------------
+
+//deletar e adicionar propriedades
+
+let carro ={
+    marca:"Wv",
+    portas: 4,
+    kms: 0
+
+}
+
+console.log(carro.marca)
+
+delete carro.portas
+
+console.log(carro.portas)
+
+carro.tetoSolar = true;  //adicionar
+
+console.log(carro.tetoSolar)

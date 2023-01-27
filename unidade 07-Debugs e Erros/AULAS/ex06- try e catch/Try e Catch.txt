@@ -1,0 +1,16 @@
+-O bloco try catch vai tentar executar um código, caso não consiga ele pode retornar o erro especifico que o codigo gerou
+-Util para debug
+
+
+
+try{
+  let a = 2 + b    
+} catch(Error){
+
+    console.log(Error)
+    
+}
+
+RESULTADO: 
+
+ReferenceError: b is not defined

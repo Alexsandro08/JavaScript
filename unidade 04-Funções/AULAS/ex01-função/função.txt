@@ -1,0 +1,8 @@
+function imprimir(num){
+    console.log("numero é " + num)
+}
+imprimir(2);
+imprimir(6);
+imprimir(0);
+imprimir(10);
+imprimir(8);

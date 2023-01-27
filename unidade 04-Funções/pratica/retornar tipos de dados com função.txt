@@ -1,0 +1,14 @@
+function verificar(dados){
+    if(typeof dados == "string"){
+        return "Este dado é uma string";
+
+    } else if(typeof dados == "boolean"){
+        return "Este dado é um boolean";
+
+    } else{
+        return"Este dado é um number";
+    }
+}
+console.log(verificar(9))
+console.log(verificar("alex"))
+console.log(verificar(true))

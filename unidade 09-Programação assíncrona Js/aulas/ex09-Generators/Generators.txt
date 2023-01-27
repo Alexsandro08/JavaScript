@@ -1,0 +1,19 @@
+-Generators funcionam semelhantes as promises
+-Onde ações podem ser pausadas e continuadas depois
+-Caracterizados pelos function* e yield
+- O yield pode salvar o estado da variável
+
+
+function* criarId(){
+    let id = 0
+    while(true){
+        yield id++
+    }
+}
+
+let criaId = criarId()
+
+console.log(criaId.next().value)
+console.log(criaId.next().value)
+console.log(criaId.next().value)
+console.log(criaId.next().value)

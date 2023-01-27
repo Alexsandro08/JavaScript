@@ -1,0 +1,7 @@
+let idade = 18;
+let cnh = true;
+if(idade >= 18 && cnh == true){
+    console.log("Estar apto");
+} else{
+    console.log("Não estar apto");
+}
